@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+.wrapper {
+  width: 1200px;
+}
+.inner-wrapper {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.header {
+  height: 600px;
+  color: #fff;
+  font-family: inherit;
+  margin: 0 auto;
+  /* background-image: url(img/header.jpg); */
+  background: rgb(58, 51, 51);
+}
+
+header .header-top {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  position: relative;
+  margin-bottom: 30px;
+}
+.header-links {
+  flex-basis: 85%;
+}
+.header-lang {
+flex-basis: 15%;
+}
+.lang .active {
+  font-weight: 700;
+  color: red;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.title-container {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 85%;
+  max-width: 600px;
+  
+}
+.header-info-tours {
+  flex-basis: 15%;
+  
+}
+.header-info-tours {
+    
+}
+.tours-num {
+  font-size: 36px;
+  margin: 0;
+}
+.tours-text {
+  margin: 0;
+}
+
+h1.content-title {
+  display: flex;
+  color: #fff;
+  font-size: 60px;
+  font-weight: 400;
+}
+
+
+
+/* .header-logo {
+  margin-right: -30px;
+  position: absolute;
+  left: -102px;
+  font-size: 25px;
+  font-weight: 700;
+} */
+
+.header-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+.go-tour {
+  flex-basis: 85%;
+}
+.social {
+  flex-basis: 15%;
+}
+
+.tours-people
